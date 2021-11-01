@@ -440,8 +440,6 @@ main > section:not(.landing, .discount) {
 .articles__box-description {
   padding: 20px;
 }
-.articles__box-description h3 {
-}
 .articles__box-description p {
   line-height: 1.5;
   color: var(--transparent-text-color);
