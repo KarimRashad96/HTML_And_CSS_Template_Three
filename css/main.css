@@ -221,7 +221,8 @@ main > section:not(.landing, .discount) {
   left: 0;
   top: calc(var(--bar-height) + 50px);
   padding: 30px;
-  background-color: white;
+  background-color: rgb(255 255 255 / 90%);
+  backdrop-filter: blur(10px);
   border-bottom: 3px solid var(--main-color);
   display: flex;
   visibility: hidden;
