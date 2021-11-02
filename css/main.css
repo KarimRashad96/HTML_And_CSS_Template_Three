@@ -696,7 +696,7 @@ main > section:not(.landing, .discount) {
   }
   100% {
     left: 0;
-    width: 50%;
+    width: 51%;
     height: 100%;
     border-radius: 0;
     -webkit-border-radius: 0;
@@ -713,7 +713,7 @@ main > section:not(.landing, .discount) {
   }
   100% {
     right: 0;
-    width: 50%;
+    width: 51%;
     height: 100%;
     border-radius: 0;
     -webkit-border-radius: 0;
