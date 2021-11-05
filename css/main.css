@@ -1339,7 +1339,7 @@ main > section:not(.landing, .discount) {
   }
 }
 .videos__list {
-  min-width: 300px;
+  min-width: 250px;
   background-color: white;
 }
 .videos__list-name {
