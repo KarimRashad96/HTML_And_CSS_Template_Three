@@ -1713,6 +1713,15 @@ footer > p {
 footer > p i {
   color: crimson;
 }
+@media (max-width: 767px) {
+  /* centering the footer elements in small screens */
+  footer {
+    text-align: center;
+  }
+  div.footer__box:nth-of-type(4) {
+    justify-content: center;
+  }
+}
 /* End Footer */
 /* Start Animation */
 @keyframes up-and-down {
