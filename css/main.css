@@ -1068,6 +1068,12 @@ main > section:not(.landing, .discount) {
   margin: 20px auto;
   gap: 10px;
 }
+@media (max-width: 450px) {
+  .events__time {
+    /* fixing the problem where events__time almost overflows in Mobile M [medium] screens*/
+    gap: 0;
+  }
+}
 .events__time .unit {
   width: 75px;
   border: 1px solid #d4d4d4;
